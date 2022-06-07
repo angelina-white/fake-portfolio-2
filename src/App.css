@@ -6,13 +6,14 @@ body {
 
 }
 
+/*Loading screen*/
 .loadingScreen {
   position: relative;
   margin-left: -10px;
   margin-right: -10px;
 }
 
-.dark {
+.backgroundColor {
   background-color: white;
   height: 100vh;
   width: 100%;
@@ -20,13 +21,89 @@ body {
   padding-top: 25px;
 }
 
-.text1 {
-  /* color: white; */
+#loadingText {
   position: absolute;
   margin-top: -450px;
   margin-left: 650px;
 }
 
-.title {
+/*Homepage*/
+.homePage {
+  text-align: center;
+}
+
+#title {
   font-size: 50px;
+}
+
+.blockContainer {
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+.yBlocks {
+  float: left;
+}
+
+.block {
+  height: 50px;
+  width: 50px;
+  border: 0.2rem solid #fff;
+  border-radius: 1rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff;
+}
+
+.block:hover {
+  background-color: white;
+}
+
+.pinkBlock {
+  box-shadow: 0 0 2rem #FEDCFE,
+            0 0 0.8rem #FEDCFE,
+            0 0 2.8rem #FEDCFE,
+            inset 0 0 1.3rem #FEDCFE; 
+}
+
+.orangeBlock {
+  box-shadow: 0 0 2rem #FFEAC8,
+            0 0 0.8rem #FFEAC8,
+            0 0 2.8rem #FFEAC8,
+            inset 0 0 1.3rem #FFEAC8; 
+}
+
+.yellowBlock {
+  box-shadow: 0 0 2rem #FCFFC8,
+            0 0 0.8rem #FCFFC8,
+            0 0 2.8rem #FCFFC8,
+            inset 0 0 1.3rem #FCFFC8; 
+}
+
+.greenBlock {
+  box-shadow: 0 0 2rem #D5FFF6,
+            0 0 0.8rem #D5FFF6,
+            0 0 2.8rem #D5FFF6,
+            inset 0 0 1.3rem #D5FFF6; 
+}
+
+.lightBlueBlock {
+  box-shadow: 0 0 2rem #CDFAFF,
+            0 0 0.8rem #CDFAFF,
+            0 0 2.8rem #CDFAFF,
+            inset 0 0 1.3rem #CDFAFF; 
+}
+
+.blueBlock {
+  box-shadow: 0 0 2rem #C1D8FF,
+            0 0 0.8rem #C1D8FF,
+            0 0 2.8rem #C1D8FF,
+            inset 0 0 1.3rem #C1D8FF; 
+}
+
+.purpleBlock {
+  box-shadow: 0 0 2rem #DBC1FF,
+            0 0 0.8rem #DBC1FF,
+            0 0 2.8rem #DBC1FF,
+            inset 0 0 1.3rem #DBC1FF; 
 }
