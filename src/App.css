@@ -48,6 +48,8 @@ body {
 .block {
   height: 50px;
   width: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
   border: 0.2rem solid #fff;
   border-radius: 1rem;
   padding: 0.4em;

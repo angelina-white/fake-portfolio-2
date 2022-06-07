@@ -13,6 +13,8 @@ function Homepage()
         //move up
         gsap.from("#title", {duration: 1, y: 10});
         gsap.from(".block", {duration: 1, y: 10, delay: .5});
+
+        
     }, [])
 
     return (
