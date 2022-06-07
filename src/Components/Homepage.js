@@ -1,6 +1,12 @@
 import { gsap } from "gsap";
-import {Container, Row, Col} from "react-bootstrap/";
 import {useEffect} from "react";
+import Pink from "./Blocks/Pink";
+import Orange from "./Blocks/Orange";
+import Yellow from "./Blocks/Yellow";
+import Green from "./Blocks/Green";
+import LightBlue from "./Blocks/LightBlue";
+import Blue from "./Blocks/Blue";
+import Purple from "./Blocks/Purple";
 
 function Homepage()
 {
@@ -13,8 +19,6 @@ function Homepage()
         //move up
         gsap.from("#title", {duration: 1, y: 10});
         gsap.from(".block", {duration: 1, y: 10, delay: .5});
-
-        
     }, [])
 
     return (
@@ -22,53 +26,53 @@ function Homepage()
             <h1 id="title">Angelina White Portfolio</h1>
             <div className="blockContainer">
                 <div className="yBlocks">
-                    <div className="block pinkBlock"></div>
-                    <div className="block pinkBlock"></div>
-                    <div className="block pinkBlock"></div>
-                    <div className="block pinkBlock"></div>
-                    <div className="block pinkBlock"></div>
+                    <Pink />
+                    <Pink />
+                    <Pink />
+                    <Pink />
+                    <Pink />
                 </div>
                 <div className="yBlocks">
-                    <div className="block orangeBlock"></div>
-                    <div className="block orangeBlock"></div>
-                    <div className="block orangeBlock"></div>
-                    <div className="block orangeBlock"></div>
-                    <div className="block orangeBlock"></div>
+                    <Orange />
+                    <Orange />
+                    <Orange />
+                    <Orange />
+                    <Orange />
                 </div>
                 <div className="yBlocks">
-                    <div className="block yellowBlock"></div>
-                    <div className="block yellowBlock"></div>
-                    <div className="block yellowBlock"></div>
-                    <div className="block yellowBlock"></div>
-                    <div className="block yellowBlock"></div>
+                    <Yellow />
+                    <Yellow />
+                    <Yellow />
+                    <Yellow />
+                    <Yellow />
                 </div>
                 <div className="yBlocks">
-                    <div className="block greenBlock"></div>
-                    <div className="block greenBlock"></div>
-                    <div className="block greenBlock"></div>
-                    <div className="block greenBlock"></div>
-                    <div className="block greenBlock"></div>
+                    <Green />
+                    <Green />
+                    <Green />
+                    <Green />
+                    <Green />
                 </div>
                 <div className="yBlocks">
-                    <div className="block lightBlueBlock"></div>
-                    <div className="block lightBlueBlock"></div>
-                    <div className="block lightBlueBlock"></div>
-                    <div className="block lightBlueBlock"></div>
-                    <div className="block lightBlueBlock"></div>
+                    <LightBlue />
+                    <LightBlue />
+                    <LightBlue />
+                    <LightBlue />
+                    <LightBlue />
                 </div>
                 <div className="yBlocks">
-                    <div className="block blueBlock"></div>
-                    <div className="block blueBlock"></div>
-                    <div className="block blueBlock"></div>
-                    <div className="block blueBlock"></div>
-                    <div className="block blueBlock"></div>
+                    <Blue />
+                    <Blue />
+                    <Blue />
+                    <Blue />
+                    <Blue />
                 </div>
                 <div className="yBlocks">
-                    <div className="block purpleBlock"></div>
-                    <div className="block purpleBlock"></div>
-                    <div className="block purpleBlock"></div>
-                    <div className="block purpleBlock"></div>
-                    <div className="block purpleBlock"></div>
+                    <Purple />
+                    <Purple />
+                    <Purple />
+                    <Purple />
+                    <Purple />
                 </div>
             </div>
         </div>
